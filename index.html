@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarePal - AI-Powered Elder Care Companion</title>
+    <meta name="description" content="CarePal is an AI-powered companion for seniors, offering real-time health monitoring, medication reminders, emergency alerts, and wellness tips. Empowering independent living and connecting families.">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #f9f9f9; }
+        header { background-color: #fff; padding: 1rem 2rem; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.8rem; font-weight: bold; color: #007bff; text-decoration: none; }
+        nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
+        nav ul li { margin-left: 1.5rem; }
+        nav ul li a { text-decoration: none; color: #555; font-weight: 500; transition: color 0.3s ease; }
+        nav ul li a:hover { color: #007bff; }
+        .hero { background: linear-gradient(135deg, #e0f7fa 0%, #bbdefb 100%); color: #000; text-align: center; padding: 4rem 2rem; }
+        .hero h1 { font-size: 3rem; margin-bottom: 1rem; color: #007bff; }
+        .hero p { font-size: 1.25rem; max-width: 800px; margin: 0 auto 2rem auto; }
+        .cta-button { display: inline-block; background-color: #007bff; color: #fff; padding: 0.9rem 2rem; border-radius: 5px; text-decoration: none; font-size: 1.1rem; font-weight: bold; transition: background-color 0.3s ease; }
+        .cta-button:hover { background-color: #0056b3; }
+        .section { padding: 4rem 2rem; text-align: center; max-width: 1000px; margin: 0 auto; }
+        .section:nth-of-type(even) { background-color: #f0f8ff; }
+        .section h2 { font-size: 2.5rem; margin-bottom: 2rem; color: #007bff; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .feature-item { background-color: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: left; }
+        .feature-item h3 { color: #007bff; margin-top: 0; font-size: 1.4rem; }
+        .benefits-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; text-align: left; }
+        .benefits-list li { background-color: #fff; padding: 1.5rem; border-left: 4px solid #007bff; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); }
+        footer { background-color: #333; color: #fff; text-align: center; padding: 2rem; font-size: 0.9rem; }
+        @media (max-width: 768px) {
+            header { flex-direction: column; }
+            nav ul { margin-top: 1rem; }
+            nav ul li { margin: 0 0.5rem; }
+            .hero h1 { font-size: 2.2rem; }
+            .hero p { font-size: 1rem; }
+            .section h2 { font-size: 2rem; }
+        }
+    </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">CarePal</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>CarePal: Intelligent Care for Independent Living.</h1>
+            <p>Empowering seniors with real-time health monitoring, smart reminders, and instant family connection. Peace of mind, always.</p>
+            <a href="pricing.html" class="cta-button">Discover CarePal Today</a>
+        </section>
+
+        <section id="features" class="section">
+            <h2>How CarePal Transforms Elder Care</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>24/7 Health Monitoring</h3>
+                    <p>Tracks vital metrics, activity levels, and sleep patterns through integrated wearables and smart home devices, providing continuous insights.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Smart Medication & Routine Reminders</h3>
+                    <p>Ensures no dose is missed and daily routines are followed with personalized, timely alerts and gentle nudges.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Instant Emergency Alerts</h3>
+                    <p>Automatically detects unusual activity or potential emergencies, notifying family and caregivers immediately for rapid response.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Personalized Wellness Tips</h3>
+                    <p>Offers tailored advice on nutrition, exercise, and mental well-being to promote a healthier, happier lifestyle for seniors.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="section">
+            <h2>The CarePal Difference: Peace of Mind for Everyone</h2>
+            <ul class="benefits-list">
+                <li>
+                    <h3>For Seniors: Enhanced Independence</h3>
+                    <p>Live confidently knowing you have a smart companion watching over your health and daily needs, without compromising your freedom.</p>
+                </li>
+                <li>
+                    <h3>For Families: Real-time Connection & Reduced Worry</h3>
+                    <p>Stay informed about your loved one's well-being with instant updates and alerts, fostering a stronger sense of security and connection.</p>
+                </li>
+                <li>
+                    <h3>Proactive & Personalized Care</h3>
+                    <p>CarePal adapts to individual needs, offering a unique blend of technology and compassion to support a higher quality of life.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" style="text-align: center;">
+            <h2>Ready to Experience Smarter Elder Care?</h2>
+            <p>Join the CarePal family and give your loved ones the gift of intelligent, compassionate support.</p>
+            <a href="pricing.html" class="cta-button">Explore Our Plans</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 CarePal. All rights reserved.</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
